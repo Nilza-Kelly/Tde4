@@ -1,0 +1,605 @@
+
+/* Estilo Css*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+} 
+
+@font-face {
+        font-family: 'Harry P';
+        src: url('https://fanzone.potterish.com/arquivos/fontes/HarryP.TTF') format('truetype');  
+        font-weight: normal;
+        font-style: normal;
+}
+   
+
+
+
+h1 {
+    font-family: 'Harry P', sans-serif;
+    font-size: 140px;
+    color: white;
+    justify-self: center;
+    padding: 35px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.6);
+    -webkit-text-stroke: 0.3px white;
+}
+
+.header__container{
+    background-image: url(https://preview.redd.it/hogwarts-legacy-custom-21-9-wallpaper-3440x1440-v0-6x18enawr7ea1.png?width=1080&crop=smart&auto=webp&s=49ee070bf2679fbc9b5b137dce875607e6328b10);
+    max-height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.header__subtitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    text-shadow: 20px 20px 30px rgba(0, 0, 0, 1.9);
+    justify-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    color: blanchedalmond;
+    font-family: 'Harry P', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+#intro{
+    background-image: url(https://d7ed11f089.cbaul-cdnwnd.com/830ab7a05023d720809e9eaaf9a5dc8d/200000035-13d7014d07/harry-potter-e-as-reliquias-da-morte-parte-i.jpg?ph=d7ed11f089);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 180px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.intro__title{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 1), 0 0 20px rgba(0, 0, 0, 0.6);
+    -webkit-text-stroke: 0.3px white;
+    justify-self: center;
+    color: white;
+}
+
+.intro__text{
+    font-size: 20px;
+    font-weight: 800;
+    justify-self: center;
+    padding: 0 0 30px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 1), 0 0 20px rgba(0, 0, 0, 0.6);
+    -webkit-text-stroke: 0.3px white;
+}
+
+.intro__button{
+    background-color: rgb(83, 86, 235);
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    margin: 10px;  
+    transition: all 0.3s ease; 
+}
+
+.intro__button:hover {
+    background-color: #093f0b; 
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 15px #6f4b3b;
+}
+
+.intro__banner {
+    display: block;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    text-align: center; 
+}
+
+
+
+
+#about {
+    position: relative;
+    background-image: url(https://wallpapers.com/images/hd/bellatrix-lestrange-wicked-smile-a9mqccwmpuqkv45y.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section__text{
+    justify-self: flex-start;
+    padding: 0 25px;
+    margin: 3px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 1px;
+    text-wrap: wrap;
+}
+
+.about__grid{
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    font-weight: 400;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.about__description{
+    padding:7px 10px 25px;
+    font-size: 20px;
+}
+
+
+
+
+h2{
+    font-family: 'Harry P', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    justify-self: flex-start;
+    font-size: 80px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.6);
+    -webkit-text-stroke: 0.3px white;
+    padding: 30px 30px 15px 30px;
+}
+
+h3{
+    font-family: 'Harry P', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+.gallery__grid{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-more{
+    background-color: rgb(83, 86, 235);
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    margin: 10px;           
+    transition: all 0.3s ease; 
+}
+
+.btn-more:hover {
+    background-color: #093f0b; 
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 15px #6f4b3b;
+}
+
+.gallery__caption{
+    font-size: 18px;
+}
+
+#gallery{
+    background-color: black;
+    height: 450px;
+}
+
+.gallery__caption{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
+#services{
+    background-image: url(https://live.staticflickr.com/8361/8267101570_8da500fa73_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+.service__description{
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: flex-start;
+    padding: 0px 15px 5px;
+}
+
+.service__title{
+    justify-content: flex-start;
+    padding: 15px 15px 5px;
+}
+
+
+
+
+#news{
+    background-color: black;
+}
+
+.news__grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    height: 400px;
+}
+
+.news__summary{
+    padding: 8px 0px;
+    width: 300px;
+    border: 1px;
+    font-size: 18px;
+}
+
+.news__title{
+    padding: 8px 0px;
+}
+
+
+
+
+#contact{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/294/366/desktop-wallpaper-harry-potter-warner-bros-marauders-map-1000cm-x-52cm-textured-matte-roll-reviews-hogwarts-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid transparent;
+}
+
+.contact__form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);  
+    color: #f2f2f2; 
+}
+
+.form__label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #f7f3ed; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #333; 
+    color: #f2f2f2;
+    border: 2px solid #f7f3ed; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+textarea{
+    width: 570px;
+    background-color:#333;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #f7f3ed;
+    border-radius: 5px; 
+    outline: none; 
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #093f0b; 
+    background-color: #444;
+    box-shadow: 0 0 10px #093f0b;
+}
+
+input:focus {
+    outline: none;
+    border-color: #093f0b; 
+    background-color: #444;
+    box-shadow: 0 0 10px #45a049;
+}
+
+.form__group{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form__button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(83, 86, 235); 
+    color: #1e1e1e; 
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #093f0b; 
+}
+
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    justify-content: flex-start;
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+
+
+/*Responsividade*/
+
+@media (max-width: 1536px){
+	.header__menu {
+        padding: 40px;
+        font-size: 26px;
+    }
+    .header__subtitle {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    #intro{
+        max-height: 180px;
+    }
+}
+
+/* x1 */
+@media (max-width: 1280px){
+	.header__menu {
+        font-size: 24px;
+        padding: 30px;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    .header__subtitle {
+        font-size: 20px;
+    }
+    #intro{
+        max-height: 170px;
+    }
+    #gallery{
+        height: 800px;
+    }
+    .gallery__grid {
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .news__grid{
+        flex-wrap: wrap;
+        gap: 30px;
+        height: 900px;
+    }
+}
+
+/* 1l */
+@media (max-width: 1024px){
+	.header__menu {
+        font-size: 25px;
+        padding: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header__container{
+        max-height: 390px;
+    }
+    .header__subtitle {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    #intro{
+        max-height: 135px;
+        padding: 10px;
+    }
+    .intro__title{
+        font-size: 35px;
+        padding: 15px;
+    }
+    .intro__text{
+        font-size: 16px;
+    }
+    .intro__button{
+        padding: 10px;
+        font-size: 14px;  
+    }
+    #gallery{
+        height: 800px;
+    }
+    .gallery__grid{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    h2{
+        justify-self: center;
+        font-size: 55px;
+    }
+    .news__grid{
+        flex-wrap: wrap;
+        gap: 30px;
+        height: 900px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+    .gallery__grid {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
+/* md */
+@media (max-width: 768px){
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        padding: 20px;
+    }
+    .header__menu {
+        padding: 25px;
+    }
+    .intro__title {
+        font-size: 40px;
+        padding: 5px;
+    }
+    .intro__text {
+        font-size: 16px;
+        padding: 3px 0 25px;
+    }
+    .section__text {
+        font-size: 16px;
+        padding: 15px;
+    }
+    #gallery{
+        height: 1400px;
+    }
+    .gallery__caption{
+        font-size: 16px;
+        justify-self: center;
+    }
+    .btn-more{
+        justify-self: center;
+        width: 290px;
+        font-size: 14px;
+    }
+    .gallery__grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__description{
+        font-size: 18px;
+    }
+    .news__grid{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: 1750px;
+    }
+    .news__summary{
+        font-size: 18px;
+    }
+    .service__description{
+        font-size: 16px;
+        padding: 5px 10px 15px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .contact__form {
+        max-width: 500px;
+    }
+    .form__label {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    textarea{
+        width: 470px;
+    }
+    #contact{
+        height: 700px
+    }
+}
+
+/* sm */
+@media (max-width: 640px){
+	h1 {
+        font-size: 60px;
+        padding: 5px 130px 2px;
+    }
+    .header__menu {
+        display: flex;
+        padding: 5px 10px 15px;
+    }
+    .header__subtitle {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    #intro{
+        padding: 5px;
+        max-height: 140px;
+    }
+    .news__grid{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .btn-more{
+        width: 300px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
+/* xs */
+@media (max-width: 550px){
+    h1{
+        font-size: 35;
+        flex-wrap: nowrap;
+        padding: 5px 40px 2px;
+    }
+    .section__text{
+        font-size: 12px;
+    }
+    .contact__form {
+        max-width: 400px;
+    }
+    .form__label {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    textarea{
+        width: 370px;
+    }
+    #contact{
+        height: 700px
+    }
+}
